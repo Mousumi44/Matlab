@@ -47,7 +47,7 @@ else
     fprintf('                       Coef        Area(m^2)\n')
     for car=1:numCars
         fprintf('        %4.0f           %4.2f        %6.4f\n',sortMatrix(car,:));
-        if sortMatrix(car,3)>aveAraa
+        if sortMatrix(car,3)>aveArea
             fprintf('*\n');
         else
             fprintf('\n');
